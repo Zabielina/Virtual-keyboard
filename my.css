@@ -1,0 +1,231 @@
+body {
+    background-color: rgb(75, 16, 134);
+}
+
+
+header {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.screenKeyboard #output {
+    border-radius: 10px;
+    width: 36rem;
+    height: 12rem;
+    border-radius: 13px;
+    border: 3px solid black;
+
+}
+
+#numbersKeyboard {
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.number {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    margin: 0 3px;
+    border-radius: 13px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+.symbol {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    margin: 0 3px;
+    border-radius: 13px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+#letters {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#letters2 {
+    display: flex;
+    justify-content: center;
+}
+
+#letters3 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.letter {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    margin: 0 3px 4px;
+    border-radius: 13px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    flex-wrap: nowrap;
+}
+
+
+
+
+#functionButtons {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.functionButtonBackspace {
+    background-color: rgb(17, 17, 17);
+    width: 90px;
+    height: 50px;
+    margin: 0 3px;
+    border-radius: 13px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.functionButtonTab {
+    background-color: rgb(17, 17, 17);
+    width: 90px;
+    height: 50px;
+    margin: 0 2.5px;
+    border-radius: 13px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.functionButtonCaps {
+    background-color: rgb(17, 17, 17);
+    width: 80px;
+    height: 50px;
+    margin: 0 3px;
+    border-radius: 13px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+.functionButtonEnter {
+    background-color: rgb(17, 17, 17);
+    width: 12.8%;
+    height: 50px;
+    margin: 0 3px;
+    border-radius: 13px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.functionButtonShift {
+    background-color: rgb(17, 17, 17);
+    width: 11.3%;
+    height: 50px;
+    margin: 0 3px;
+    border-radius: 13px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+.functionButtonCtrl {
+    background-color: rgb(17, 17, 17);
+    width: 50px;
+    height: 50px;
+    margin: 0 2.5px;
+    border-radius: 13px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+.functionButtonFn {
+    background-color: rgb(17, 17, 17);
+    width: 63px;
+    height: 50px;
+    margin: 0 3px;
+    border-radius: 13px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+.functionButtonWindow {
+    background-color: rgb(17, 17, 17);
+    width: 65px;
+    height: 50px;
+    margin: 0 3px;
+    border-radius: 13px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+.functionButtonAlt {
+    background-color: rgb(17, 17, 17);
+    width: 65px;
+    height: 50px;
+    margin: 0 3px;
+    border-radius: 13px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+.functionButtonSpace {
+    background-color: rgb(17, 17, 17);
+    width: 22%;
+    height: 50px;
+    margin: 0 3px;
+    border-radius: 13px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+}
+
+
+
+button:active {
+    background-color: #7a99f5;
+
+}
+
+.functionButtons button {
+    background-color: white;
+}
+
+.active-button {
+    background-color: rgb(114, 128, 252);
+}
